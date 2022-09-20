@@ -2,7 +2,7 @@
 
 A simple flight departure board displaying all the flights fetched from the API. With additional feature included at the bottom of the page there is a possibility to update any flight status.
 
-- Resposponsive
+- Responsive
 
 - App is build with Nuxt.js, Vue.js, HTML, SASS and it functions as Single Page Application.
 

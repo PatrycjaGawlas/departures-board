@@ -1,0 +1,32 @@
+$white: #ffff;
+$green: #1ea945;
+$grey: #aebcca;
+$darkGrey: #464646;
+$lightBlack: #1c1c1c;
+$black: #000000;
+$lightYellow: #ead550;
+$yellow: #f5d836;
+$orange: #d67b27;
+$red: #f2431c;
+$blue: #2174c1;
+
+$tablet-width: 768px;
+$desktop-width: 1024px;
+
+@mixin tablet {
+  @media (min-width: #{$tablet-width}) and (max-width: #{$desktop-width - 1px}) {
+    @content;
+  }
+}
+
+@mixin tabletAndDesktop {
+  @media (min-width: #{$tablet-width}) {
+    @content;
+  }
+}
+
+@mixin desktop {
+  @media (min-width: #{$desktop-width}) {
+    @content;
+  }
+}
